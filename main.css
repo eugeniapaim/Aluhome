@@ -1,0 +1,95 @@
+header{
+    background-color: rgb(163, 138, 184);
+    color: rgb(107, 59, 146);
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+}
+
+body {
+    background-color: rgb(121, 89, 151);
+}
+
+a.nav-link {
+    color: rgb(107, 59, 146);
+}
+
+.sobre {
+    color: rgb(54, 22, 85);
+    display: flex;
+}
+
+.sobre img{
+    margin-top: 20px;
+    width: 500px;
+    height: 280px;
+}
+
+.carousel.slide.carousel-fade {
+    max-height: 280px;
+}
+
+section {
+    display: block;
+    max-width: 80%;
+    margin: 20px;
+}
+
+.card {
+    flex-wrap: wrap;
+}
+
+.row {
+    width: 100%;
+}
+
+.disponiveis {
+    color: rgb(54, 22, 85);
+}
+
+form {
+    max-width: 300px;
+}
+
+
+#contatos {
+    max-width: 40%;
+    display: flex;
+}
+
+footer {
+    background-color: rgb(163, 138, 184);
+    margin-top: 20px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img {
+    height: 32px;
+}
+
+footer .container{
+    padding: 16px 0;
+}
+
+@media screen and (max-width: 800px) {
+    .sobre {
+        display: block;
+        align-items: center;
+    }
+
+    .sobre h2, section {
+        max-width: 100%;
+        text-align: center;
+    }
+
+}
