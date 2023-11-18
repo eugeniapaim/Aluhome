@@ -28,6 +28,7 @@ a.nav-link {
 }
 
 .carousel.slide.carousel-fade {
+    width: 500px;
     max-height: 280px;
 }
 
@@ -39,6 +40,11 @@ section {
 
 .disponiveis {
     color: rgb(54, 22, 85);
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
 }
 
 form {
@@ -74,6 +80,21 @@ footer .container{
 }
 
 @media screen and (max-width: 800px) {
+    .nav, .nav-item {
+        text-align: center;
+        display: block;
+    }
+
+    .sobre img {
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .carousel-item.active img {
+        width: 100%;
+
+    }
     .sobre {
         display: block;
         align-items: center;
