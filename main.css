@@ -37,14 +37,6 @@ section {
     margin: 20px;
 }
 
-.card {
-    flex-wrap: wrap;
-}
-
-.row {
-    width: 100%;
-}
-
 .disponiveis {
     color: rgb(54, 22, 85);
 }
